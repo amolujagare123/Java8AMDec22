@@ -21,6 +21,11 @@ public class StringComparison {
         System.out.println(str1.equals(str4));
         System.out.println(str1.equalsIgnoreCase(str4));
         System.out.println(str1.equals(str5));
+
+        System.out.println(str1==str2); // true / false
+        System.out.println(str1==str3); // false
+        System.out.println(str1==str4); // false
+        System.out.println(str1==str5); //
     }
 
 }
