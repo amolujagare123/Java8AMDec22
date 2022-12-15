@@ -23,6 +23,25 @@ public class DateDemo2 {
         System.out.println(dateStr0);
         System.out.println(date);
 
+        // → dd | MMMM yy hh:mm
+        String dateStr1= "23 | June 16  8:34" ;
+        SimpleDateFormat sd1 = new SimpleDateFormat("dd | MMMM yy hh:mm");
+        Date date1 = sd1.parse(dateStr1);
+        System.out.println(dateStr1);
+        System.out.println(date1);
+
+
+        // --> yyyy-MM-dd | hh:mm:ss
+        String dateStr2= "2016-06-23 | 8:34:23";
+        SimpleDateFormat sd2 = new SimpleDateFormat("yyyy-MM-dd | hh:mm:ss");
+        Date date2 = sd2.parse(dateStr2);
+        System.out.println(dateStr2);
+        System.out.println(date2);
+
+
+
+
+
 
     }
 }
