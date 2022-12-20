@@ -30,7 +30,7 @@ class BabyDog extends Dog
 
 
 
-public class TestMultipleInheritance {
+public class TestMultilevelInheritance {
 
     public static void main(String[] args) {
 

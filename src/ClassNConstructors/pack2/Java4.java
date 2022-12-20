@@ -9,6 +9,7 @@ public class Java4 {
         Java1 ob = new Java1();
 
         ob.a = 10 ;
-      //  ob.c = 'f';
+        /*ob.str ="";
+        ob.c = 'f';*/
     }
 }
