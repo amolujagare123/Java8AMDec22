@@ -2,17 +2,22 @@ package ClassNConstructors;
 
 public class MyClass {
 
-    int a;
-    double d;
-    char c;
-    String str;
+    public int a;
+    public double d;
+    public char c;
+    public String str;
 
-    void display()
+    void function()
+    {
+        System.out.println(" this is a function");
+    }
+    public void display()
     {
         System.out.println("a="+a);
         System.out.println("d="+d);
         System.out.println("c="+c);
         System.out.println("str="+str);
+        function();
     }
 
     public static void main(String[] args) {
