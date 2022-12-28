@@ -18,6 +18,7 @@ public class TvShowroom {
 }
 
 class LG extends TvShowroom {
+    @Override // optional
     void channels()
     {
         System.out.println("LG channels");
