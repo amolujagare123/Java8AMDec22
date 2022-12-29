@@ -1,7 +1,7 @@
 package InheritanceDemo.Polymorphism;
 
 public class TvShowroom {
-    void channels()
+    /*protected*/  void channels()
     {
         System.out.println("TvShowroom channels");
     }
@@ -19,7 +19,7 @@ public class TvShowroom {
 
 class LG extends TvShowroom {
     @Override // optional
-    void channels()
+     void channels()
     {
         System.out.println("LG channels");
     }
