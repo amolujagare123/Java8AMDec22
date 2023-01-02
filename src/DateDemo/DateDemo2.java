@@ -13,7 +13,12 @@ public class DateDemo2 {
 
         // String into date
         SimpleDateFormat sd = new SimpleDateFormat("MM/dd/yyyy");
-        Date date = sd.parse(str);
+        Date date = null;
+        try {
+            date = sd.parse(str);
+        } catch (ParseException e) {
+            throw new RuntimeException(e);
+        }
         System.out.println(date);
 
         // → dd-MMMM-yyyy

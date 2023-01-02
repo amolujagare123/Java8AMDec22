@@ -14,9 +14,13 @@ public class ArrayDemo {
             a[4] = 41;
             a[5] = 15;
         }
-        catch (Exception e)
+        catch (IndexOutOfBoundsException e)
         {
-
+            System.out.println("We are inside catch block");
+            System.out.println(e);
+            System.out.println(e.getMessage());
+            System.out.println(e.getClass());
+            e.printStackTrace();
         }
 
         System.out.println("length of a="+a.length);
