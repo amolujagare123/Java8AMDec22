@@ -14,10 +14,11 @@ public class QueDemo3 {
         pq.offer(56);
         pq.offer(28);
         pq.offer(66);
-        pq.offer('a');
+        //pq.offer(null);
+       /* pq.offer('a');
         pq.offer(true);
         pq.offer("true123");
-
+*/
         // 21,26,28,56,66,76
 
         System.out.println(pq);
